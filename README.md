@@ -1,6 +1,15 @@
 # ImgxPwa
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.4.
+Input entire directory of raw images and generate an optimize directory of responsive images, containing different size and resolution versions for each image.
+
+## Usage
+
+1. Install project dependencies by running `npm install`.
+
+2. Add the images to be processed inside of the folder named `raw_images`.
+
+3. Generate responsive images by running `npm run process-images` in the terminal. This will process the images
+within raw_images and output responsive images in the folder named `responsive_images`.
 
 ## Development server
 

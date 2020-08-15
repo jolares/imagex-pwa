@@ -29,8 +29,8 @@ module.exports = function(grunt) {
         files: [{
           expand: true,
           src: ['*.{gif,jpg,png}'],
-          cwd: 'input_images/',
-          dest: 'output_images/'
+          cwd: 'raw_images/',
+          dest: 'responsive_images/'
         }]
       }
     },
@@ -58,5 +58,4 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-mkdir');
   grunt.registerTask('default', ['clean', 'mkdir', 'responsive_images']);
-
 };

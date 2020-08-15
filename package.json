@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "start:prod": "http-server -p 8080 -c-1 dist/imagex-pwa",
+    "process-images": "grunt",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
