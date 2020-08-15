@@ -1,6 +1,6 @@
 {
-  "name": "imgx-pwa",
-  "short_name": "imgx-pwa",
+  "name": "imagex-pwa",
+  "short_name": "imagex-pwa",
   "theme_color": "#1976d2",
   "background_color": "#fafafa",
   "display": "standalone",

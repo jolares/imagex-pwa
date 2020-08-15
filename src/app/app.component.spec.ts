@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'imgx-pwa'`, () => {
+  it(`should have as title 'imagex-pwa'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('imgx-pwa');
+    expect(app.title).toEqual('imagex-pwa');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('imgx-pwa app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('imagex-pwa app is running!');
   });
 });
