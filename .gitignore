@@ -6,8 +6,8 @@
 /out-tsc
 # Only exists if Bazel was run
 /bazel-out
-/input_images/*.*
-/output_images/*.*
+/raw_images/*.*
+/responsive_images/*.*
 
 # dependencies
 /node_modules
